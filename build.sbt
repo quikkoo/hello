@@ -1,7 +1,9 @@
 name := "hello"
+
 version := "0.0.1"
 
 scalaVersion := "2.11.7"
+
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature")
 
 
@@ -15,9 +17,11 @@ resolvers ++= Seq(
 
 
 libraryDependencies ++= Seq(
-  "org.anormcypher" %% "anormcypher" % "0.6.0",
+  "org.anormcypher" %% "anormcypher" % "0.6.0"
+)
 
-  // client-side libraries
+// client-side libraries
+libraryDependencies ++= Seq(
   "org.webjars" %% "webjars-play" % "2.3.0-3",
   "org.webjars" %  "jquery"       % "1.11.3",
   "org.webjars" %  "bootstrap"    % "3.3.5",
