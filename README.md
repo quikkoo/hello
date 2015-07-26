@@ -10,18 +10,28 @@ A simple _Hello World Application_ used for studing how to integrate many develo
     - Codeship
     - SnapCI
     - TravisCI
+- Test Coverage
+    - Coveralls
 
-#### Status
 
-Platform | Badge
-:------: | :---:
-CircleCI | [![CircleCI Status for quikkoo/hello](https://circleci.com/gh/quikkoo/hello/tree/master.svg)](https://circleci.com/gh/quikkoo/hello/tree/master)
-Codeship | [![Codeship Status for quikkoo/hello](https://codeship.com/projects/2fcd8090-0ca2-0133-fd68-7aae0ba3591b/status?branch=master)](https://codeship.com/projects/91181)
-SnapCI   | [![SnapCI Status for quikkoo/hello](https://snap-ci.com/quikkoo/hello/branch/master/build_image)](https://snap-ci.com/quikkoo/hello/branch/master)
-TravisCI | [![TravisCI Status for quikkoo/hello](https://travis-ci.org/quikkoo/hello.svg?branch=master)](https://travis-ci.org/quikkoo/hello)
+### Build
 
-#### License
+Platform | Status
+:------: | :----:
+CircleCI | [![CircleCI Status](https://circleci.com/gh/quikkoo/hello/tree/master.svg)](https://circleci.com/gh/quikkoo/hello/tree/master)
+Codeship | [![Codeship Status](https://codeship.com/projects/2fcd8090-0ca2-0133-fd68-7aae0ba3591b/status?branch=master)](https://codeship.com/projects/91181)
+SnapCI   | [![SnapCI Status](https://snap-ci.com/quikkoo/hello/branch/master/build_image)](https://snap-ci.com/quikkoo/hello/branch/master)
+TravisCI | [![TravisCI Status](https://travis-ci.org/quikkoo/hello.svg?branch=master)](https://travis-ci.org/quikkoo/hello)
+
+
+### Coverage
+Platform  | Status
+:-------: | :---:
+Coveralls | [![Coveralls Status](http://coveralls.io/repos/quikkoo/hello/badge.svg?branch=master&service=github)](http://coveralls.io/github/quikkoo/hello?branch=master)
+
+
+### License
 
 [![License-Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://apache.org/licenses/LICENSE-2.0)
 
-Feel free to fork, use and send a pull request
+Feel free to fork, use, studing, send suggestions and pull requests

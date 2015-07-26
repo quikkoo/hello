@@ -7,9 +7,17 @@ dependencies:
     - curl -sSL https://dl.bintray.com/sbt/debian/sbt-0.13.5.deb -o sbt.deb
     - sudo dpkg -i sbt.deb
   cache_directories:
-    - $HOME/.sbt
-    - $HOME/.ivy2
+    - ~/.sbt
+    - ~/.ivy2
 
 test:
+  pre:
+    - sbt clean
   override:
-    - sbt test
+    - sbt coverage test
+  post:
+    - sbt coverageReport
+
+general:
+  artifacts:
+    - target

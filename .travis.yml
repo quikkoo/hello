@@ -6,11 +6,7 @@ jdk:
 scala:
   - 2.11.7
 
-branches:
-  only:
-    - master
-
 cache:
   directories:
-    - $HOME/.sbt
-    - $HOME/.ivy2
+    - ~/.sbt
+    - ~/.ivy2
