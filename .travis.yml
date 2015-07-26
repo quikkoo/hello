@@ -1,18 +1,16 @@
 language: scala
 
+jdk:
+  - openjdk7
+
 scala:
-   - 2.11.7
+  - 2.11.7
 
 branches:
   only:
     - master
 
-jdk:
-  - openjdk6
-  - openjdk7
-
 cache:
   directories:
-    - $HOME/.m2/repository
     - $HOME/.sbt
     - $HOME/.ivy2
